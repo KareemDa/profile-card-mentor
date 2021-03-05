@@ -3,12 +3,12 @@
 	padding: 0;
 }
 body {
-    font-family: 'Poppins';
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .container {
 	min-height: 100vh;
-	background-color: #19a1ad;
+	background-color: #19A2AE;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -35,7 +35,7 @@ body {
 
 .card {
     background: white;
-    color: #333541;
+    color: #2D3248;
     border-radius: 1em;
     overflow: hidden;
     display: flex;
@@ -47,8 +47,8 @@ body {
 .card-avatar {
     border: 5px solid white;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     overflow: hidden;
     transform: translateY(-50%);
 }
@@ -64,12 +64,12 @@ body {
     text-align: center;
 }
 .card-title {
-    font-size: 1.2em;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .card-title span {
-    color: #97969B;
+    color: #6A6F81;
     font-weight: 300;
     margin: 0 10px;
 }
@@ -80,8 +80,8 @@ body {
 
 .card-subtitle {
     font-size: .9em ;
-    color: #97969B;
-    margin: .25em 0;
+    color: #6A6F81;
+    margin: .75em 0;
 }
 
 .card-footer {
@@ -89,20 +89,20 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 0 1em;
 }
 
 .card-footer-number {
     font-weight: 700;
-    font-size: 1.3em;
-    padding: 1em;
+    font-size: 18px;
+    padding: 1.25em;
     text-align: center;   
 }
 .card-footer-number span {
     display: block;
-    color: #97969B;
+    color: #6A6F81;
     font-size: 0.5em;
     letter-spacing: 2px;
+    line-height: 2em;
     font-weight: 300;
 }
 
